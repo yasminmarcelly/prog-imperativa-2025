@@ -83,7 +83,18 @@ public class Main {
         }
         return posicao;
     }
-    
+
+    public static void tabuada(int numero, int multiplicador) {
+        if (multiplicador < 1) {
+            System.out.println("O multiplicador deve ser pelo menos 1.");
+            return;
+        }
+        for (int i = 1; i <= multiplicador; i++) {
+            int resultado = numero * i;
+            System.out.println(numero + " x " + i + " = " + resultado);
+        }
+    }
+
 // Resolução IA
     public static void insertionSortPorNome(Pessoa[] v, int qtd) {
         for (int i = 1; i < qtd; i++) {
@@ -98,6 +109,5 @@ public class Main {
             v[j + 1] = atual;
         }
     }
-
 }
 
