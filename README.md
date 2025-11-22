@@ -1,2 +1,2 @@
 # prog-imperativa-2025
-exemplo 01
+atividades referentes a materia de programação imperativa
